@@ -53,3 +53,6 @@ while True:
         bot.polling()
     except:
         time.sleep(5)
+
+if __name__ == '__main__':
+    bot.polling(none_stop=True)
